@@ -87,10 +87,12 @@ class ValidadorProdutos:
                         novo_nome = 'pIndice'
                         self.df.rename(columns={coluna: novo_nome}, inplace=True)
                         colunas_renomeadas.append(f"'{coluna}' -> '{novo_nome}'")
-                        self.log(f"🔄 Coluna renomeada: {coluna} -> {novo_nome}")
                 
                 if colunas_renomeadas:
-                    self.log(f"✅ {len(colunas_renomeadas)} coluna(s) Unnamed renomeada(s) para pIndice")
+                    if len(colunas_renomeadas) == 1:
+                        self.log(f"🔄 Coluna renomeada: {colunas_renomeadas[0]}")
+                    else:
+                        self.log(f"🔄 {len(colunas_renomeadas)} colunas Unnamed renomeadas para pIndice")
 
             self.log(f"📊 Total de linhas: {len(self.df)}")
             self.log(f"📋 Colunas encontradas: {list(self.df.columns)}")
