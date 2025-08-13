@@ -349,9 +349,28 @@ class ValidadorProdutos:
     # NOVO MÉTODO ADICIONADO PARA COMPATIBILIDADE COM APP.PY
     def gerar_relatorio(self):
         """Gera relatório no formato esperado pelo app.py"""
+        import re
         total_linhas = len(self.df) if self.df is not None else 0
-        linhas_validas = total_linhas - len([erro for erro in self.erros if 'Linha' in erro])
-        linhas_invalidas = len([erro for erro in self.erros if 'Linha' in erro])
+        
+        # Contar linhas inválidas de forma mais precisa
+        linhas_invalidas = 0
+        
+        # Contar erros que mencionam linhas específicas
+        for erro in self.erros:
+            if 'Linha' in erro:
+                linhas_invalidas += 1
+            elif 'pNCM:' in erro and 'valores com texto/formato inválido' in erro:
+                # Extrair número de linhas inválidas do erro de pNCM
+                match = re.search(r'pNCM: (\d+) valores', erro)
+                if match:
+                    linhas_invalidas += int(match.group(1))
+            elif 'pOrigem CST com valores incorretos:' in erro:
+                # Extrair número de linhas inválidas do erro de pOrigem CST
+                match = re.search(r'valores incorretos: (\d+) casos', erro)
+                if match:
+                    linhas_invalidas += int(match.group(1))
+        
+        linhas_validas = total_linhas - linhas_invalidas
         
         relatorio = {
             'resumo': {
