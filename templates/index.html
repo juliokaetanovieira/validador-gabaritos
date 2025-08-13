@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Planilhas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+        
+        .icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+        
+        .upload-form {
+            margin-bottom: 20px;
+        }
+        
+        .file-input-wrapper {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .file-input {
+            display: none;
+        }
+        
+        .file-input-label {
+            display: block;
+            padding: 30px 20px;
+            border: 3px dashed #667eea;
+            border-radius: 15px;
+            background: #f8f9ff;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            color: #667eea;
+            font-weight: 500;
+            font-size: 1.1rem;
+            min-height: 120px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .file-input-label:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .file-input-label.drag-over {
+            background: #667eea !important;
+            color: white !important;
+            border-color: #764ba2 !important;
+            transform: scale(1.02);
+            box-shadow: 0 15px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        .file-name {
+            margin-top: 15px;
+            padding: 10px;
+            background: #e8f2ff;
+            border-radius: 8px;
+            color: #333;
+            font-weight: 500;
+            display: none;
+        }
+        
+        .file-name.show {
+            display: block;
+        }
+        
+        .submit-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+        
+        .submit-btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .submit-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .supported-formats {
+            color: #888;
+            font-size: 0.9rem;
+            margin-top: 15px;
+        }
+        
+        .drag-instruction {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">📊</div>
+        <h1>Validador de Planilhas</h1>
+        <p class="subtitle">Carregue sua planilha de produtos para validação automática</p>
+        
+        <form class="upload-form" action="/" method="POST" enctype="multipart/form-data">
+            <div class="file-input-wrapper">
+                <input type="file" name="file" id="file" class="file-input" required accept=".csv,.xlsx,.xls">
+                <label for="file" class="file-input-label" id="fileLabel">
+                    📁 Clique aqui para selecionar o arquivo<br>
+                    <div class="drag-instruction">ou arraste e solte seu arquivo aqui</div>
+                </label>
+                <div class="file-name" id="fileName"></div>
+            </div>
+            
+            <button type="submit" class="submit-btn" id="submitBtn" disabled>
+                🔍 Validar Planilha
+            </button>
+        </form>
+        
+        <div class="supported-formats">
+            Formatos suportados: .CSV, .XLSX, .XLS
+        </div>
+    </div>
+
+    <script>
+        const fileInput = document.getElementById('file');
+        const fileName = document.getElementById('fileName');
+        const submitBtn = document.getElementById('submitBtn');
+        const fileLabel = document.getElementById('fileLabel');
+        
+        console.log('Script carregado - elementos encontrados:', {
+            fileInput: !!fileInput,
+            fileName: !!fileName,
+            submitBtn: !!submitBtn,
+            fileLabel: !!fileLabel
+        });
+        
+        // Função para atualizar a interface quando um arquivo é selecionado
+        function updateFileDisplay(file) {
+            console.log('Atualizando display do arquivo:', file ? file.name : 'nenhum arquivo');
+            if (file) {
+                fileName.textContent = `📄 ${file.name}`;
+                fileName.classList.add('show');
+                submitBtn.disabled = false;
+                fileLabel.innerHTML = `✅ Arquivo selecionado<br><div class="drag-instruction">${file.name}</div>`;
+            } else {
+                fileName.textContent = '';
+                fileName.classList.remove('show');
+                submitBtn.disabled = true;
+                fileLabel.innerHTML = `📁 Clique aqui para selecionar o arquivo<br><div class="drag-instruction">ou arraste e solte seu arquivo aqui</div>`;
+            }
+        }
+        
+        // Função para validar extensão do arquivo
+        function isValidFile(file) {
+            const validExtensions = ['.csv', '.xlsx', '.xls'];
+            const fileExtension = '.' + file.name.split('.').pop().toLowerCase();
+            return validExtensions.includes(fileExtension);
+        }
+        
+        // Event listener para seleção de arquivo via clique
+        fileInput.addEventListener('change', function(e) {
+            console.log('Arquivo selecionado via clique:', e.target.files[0]);
+            updateFileDisplay(e.target.files[0]);
+        });
+        
+        // Event listeners para drag and drop
+        fileLabel.addEventListener('dragenter', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            console.log('Drag enter');
+            fileLabel.classList.add('drag-over');
+        });
+        
+        fileLabel.addEventListener('dragover', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            console.log('Drag over');
+            fileLabel.classList.add('drag-over');
+        });
+        
+        fileLabel.addEventListener('dragleave', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            console.log('Drag leave');
+            // Só remove a classe se realmente saiu do elemento
+            if (!fileLabel.contains(e.relatedTarget)) {
+                fileLabel.classList.remove('drag-over');
+            }
+        });
+        
+        fileLabel.addEventListener('drop', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            console.log('Drop event triggered');
+            fileLabel.classList.remove('drag-over');
+            
+            const files = e.dataTransfer.files;
+            console.log('Arquivos soltos:', files.length);
+            
+            if (files.length > 0) {
+                const file = files[0];
+                console.log('Arquivo:', file.name, file.type);
+                
+                if (isValidFile(file)) {
+                    // Criar um novo FileList para o input
+                    const dt = new DataTransfer();
+                    dt.items.add(file);
+                    fileInput.files = dt.files;
+                    
+                    updateFileDisplay(file);
+                    console.log('Arquivo aceito e processado');
+                } else {
+                    alert('Formato de arquivo não suportado. Use apenas: .CSV, .XLSX, .XLS');
+                    console.log('Arquivo rejeitado - formato inválido');
+                }
+            }
+        });
+        
+        // Prevenir comportamento padrão do drag and drop na página inteira
+        document.addEventListener('dragover', function(e) {
+            e.preventDefault();
+        });
+        
+        document.addEventListener('drop', function(e) {
+            e.preventDefault();
+        });
+        
+        // Log para debug
+        console.log('Drag and drop configurado com sucesso');
+    </script>
+</body>
+</html>

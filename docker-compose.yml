@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  # Desenvolvimento
+  validador-dev:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=development
+    volumes:
+      - .:/app
+      - ./uploads:/app/uploads
+    profiles:
+      - dev
+
+  # Staging
+  validador-staging:
+    build: .
+    ports:
+      - "5001:5001"
+    environment:
+      - FLASK_ENV=staging
+    env_file:
+      - .env.staging
+    volumes:
+      - ./uploads:/app/uploads
+    profiles:
+      - staging
+
+  # Produção
+  validador-prod:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      - FLASK_ENV=production
+    env_file:
+      - .env.production
+    volumes:
+      - /var/app/uploads:/app/uploads
+    restart: unless-stopped
+    profiles:
+      - prod

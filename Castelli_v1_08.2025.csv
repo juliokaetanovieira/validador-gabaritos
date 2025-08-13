@@ -1,0 +1,146 @@
+;pCodigo;pFornecedor;pReferencia;pCodigoBarras;pDescrição;pDescrição Reduzida;pTamanho;pColeção;pLinha;pSegmento;pGrupo;pFamilia;pSubFamilia;pNCM;pOrigem CST;pUN;pMultiplo;pM²/Pallet;pQUANTIDADE NA EMBALAGEM;pPeso;pCusto;pPercST;pPercIPI;pPrecoVenda;pExige Conferencia;pMarkup;pFrete;pCodigoSA;pDesconto;pEmpresa
+1;-1;Castelli;73720;SEM GTIN;San Giusto Plus Granilha 30x120;San;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,27;72,64;6;48;48,9;-1;-1;-1;N;-1;-1;-1;-1;101
+2;-1;Castelli;73726;SEM GTIN;Lisboa Out Granilha Diamond/Granilha 30x120;Lisboa;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,27;72,64;6;48;56,9;-1;-1;-1;N;-1;-1;-1;-1;101
+3;-1;Castelli;73727;SEM GTIN;Lisboa Decor  Cola + Granilha 30x120;Lisboa;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,27;72,64;6;48;54,9;-1;-1;-1;N;-1;-1;-1;-1;101
+4;-1;Castelli;73731;SEM GTIN;Madeira Brauna Plus Deep Ink 30x120;Madeira;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,27;72,64;6;48;62,9;-1;-1;-1;N;-1;-1;-1;-1;101
+5;-1;Castelli;70706;SEM GTIN;Brodick Acetinado 20x122;Brodick;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;1,47;70,56;6;30;47,9;-1;-1;-1;N;-1;-1;-1;-1;101
+6;-1;Castelli;70721;SEM GTIN;Di Castiglione Mate Seco 20x122;Di;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;1,47;70,56;6;30;47,9;-1;-1;-1;N;-1;-1;-1;-1;101
+7;-1;Castelli;70736;SEM GTIN;Balmoral Canela Acetinado 20x122;Balmoral;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;1,47;70,56;6;30;45,9;-1;-1;-1;N;-1;-1;-1;-1;101
+8;-1;Castelli;70737;SEM GTIN;Balmoral Marfim Acetinado 20x122;Balmoral;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;1,47;70,56;6;30;45,9;-1;-1;-1;N;-1;-1;-1;-1;101
+9;-1;Castelli;70740;SEM GTIN;Arden Castanho Acetinado 20x122;Arden;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;1,47;70,56;6;30;47,9;-1;-1;-1;N;-1;-1;-1;-1;101
+10;-1;Castelli;70741;SEM GTIN;Friejó Acetinado 20x122;Friejó;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;1,47;70,56;6;30;47,9;-1;-1;-1;N;-1;-1;-1;-1;101
+11;-1;Castelli;70743;SEM GTIN;Arden Castanho Out Diamond/Granilha 20x122;Arden;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;1,47;70,56;6;30;54,9;-1;-1;-1;N;-1;-1;-1;-1;101
+12;-1;Castelli;70624;SEM GTIN;Gran Castel Tasso Acetinado 62x122;Gran;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;45,5;-1;-1;-1;N;-1;-1;-1;-1;101
+13;-1;Castelli;70626;SEM GTIN;Gran Rocca Di Borgia Acetinado 62x122;Gran;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;44,5;-1;-1;-1;N;-1;-1;-1;-1;101
+14;-1;Castelli;70652;SEM GTIN;Peterhof Acetinado 62x122;Peterhof;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;44,5;-1;-1;-1;N;-1;-1;-1;-1;101
+15;-1;Castelli;70653;SEM GTIN;Castelo de Rochester Satiny Acetinado 62x122;Castelo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;44,5;-1;-1;-1;N;-1;-1;-1;-1;101
+16;-1;Castelli;70654;SEM GTIN;Castelo de Rochester Out Granilha 62x122;Castelo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;45,5;-1;-1;-1;N;-1;-1;-1;-1;101
+17;-1;Castelli;70656;SEM GTIN;Gran Eltz Nero Acetinado 62x122;Gran;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;53,9;-1;-1;-1;N;-1;-1;-1;-1;101
+18;-1;Castelli;70657;SEM GTIN;Gran Abruzzo Gray Acetinado 62x122;Gran;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;45,5;-1;-1;-1;N;-1;-1;-1;-1;101
+19;-1;Castelli;70671;SEM GTIN;Calacata Real Satiny Acetinado 62x122;Calacata;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;46,5;-1;-1;-1;N;-1;-1;-1;-1;101
+20;-1;Castelli;70674;SEM GTIN;Oxidato Acetinado 62x122;Oxidato;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;48,9;-1;-1;-1;N;-1;-1;-1;-1;101
+21;-1;Castelli;70676;SEM GTIN;Gran Bianco Onice Satiny Acetinado 62x122;Gran;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;46,5;-1;-1;-1;N;-1;-1;-1;-1;101
+22;-1;Castelli;70689;SEM GTIN;Gran Marmo Arcobaleno Acetinado 62x122;Gran;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;45,9;-1;-1;-1;N;-1;-1;-1;-1;101
+23;-1;Castelli;70691;SEM GTIN;Stone Lunare Cola + Granilha 62x122;Stone;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;53,9;-1;-1;-1;N;-1;-1;-1;-1;101
+24;-1;Castelli;70692;SEM GTIN;Linho Dark Cola + Granilha 62x122;Linho;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;53,9;-1;-1;-1;N;-1;-1;-1;-1;101
+25;-1;Castelli;70693;SEM GTIN;Gran Metalico Cola + Granilha 62x122;Gran;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;50,9;-1;-1;-1;N;-1;-1;-1;-1;101
+26;-1;Castelli;70631;SEM GTIN;Castelo de Bellver Beige  Acetinado c/ Relevo 62x122 AR;Castelo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;50,9;-1;-1;-1;N;-1;-1;-1;-1;101
+27;-1;Castelli;70649;SEM GTIN;Castelo de Leeds Decor Wood Acetinado c/ Relevo 62x122 AR;Castelo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;55,9;-1;-1;-1;N;-1;-1;-1;-1;101
+28;-1;Castelli;70682;SEM GTIN;House Freijo Mate c/ Relevo 62x122 AR;House;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;62,9;-1;-1;-1;N;-1;-1;-1;-1;101
+29;-1;Castelli;70683;SEM GTIN;House Carvalho Mate c/ Relevo 62x122 AR;House;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;63,84;3;48;62,9;-1;-1;-1;N;-1;-1;-1;-1;101
+30;-1;Castelli;P70604;SEM GTIN;Castel Tasso Lux Esmaltado Polido 62,00 X 121,00;Castel;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,26;63,28;3;48;55,9;-1;-1;-1;N;-1;-1;-1;-1;101
+31;-1;Castelli;P70611;SEM GTIN;Gran Miramare Lux Esmaltado Polido 62,00 X 121,00;Gran;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,26;63,28;3;48;55,4;-1;-1;-1;N;-1;-1;-1;-1;101
+32;-1;Castelli;P70635;SEM GTIN;Gran Castelo de Arundel Lux Esmaltado Polido 62,00 X 121,00;Gran;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,26;63,28;3;48;59,9;-1;-1;-1;N;-1;-1;-1;-1;101
+33;-1;Castelli;P70651;SEM GTIN;Peterhof Lux Esmaltado Polido 62,00 X 121,00;Peterhof;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,26;63,28;3;48;55,4;-1;-1;-1;N;-1;-1;-1;-1;101
+34;-1;Castelli;P70655;SEM GTIN;Gran Eltz Nero Lux Esmaltado Polido 62,00 X 121,00;Gran;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,26;63,28;3;48;61,9;-1;-1;-1;N;-1;-1;-1;-1;101
+35;-1;Castelli;P70663;SEM GTIN;Gran Abruzzo Gray Lux Esmaltado Polido 62,00 X 121,00;Gran;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,26;63,28;3;48;55,4;-1;-1;-1;N;-1;-1;-1;-1;101
+36;-1;Castelli;P70669;SEM GTIN;Palazzo Di Cristallo Lux Esmaltado Polido 62,00 X 121,00;Palazzo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,26;63,28;3;48;55,9;-1;-1;-1;N;-1;-1;-1;-1;101
+37;-1;Castelli;P70675;SEM GTIN;Gran Bianco Onice Lux Esmaltado Polido 62,00 X 121,00;Gran;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,26;63,28;3;48;55,9;-1;-1;-1;N;-1;-1;-1;-1;101
+38;-1;Castelli;P70677;SEM GTIN;Gran Dark Imperador Soft Esmaltado Polido Soft 62,00 X 121,00;Gran;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,26;63,28;3;48;70,9;-1;-1;-1;N;-1;-1;-1;-1;101
+39;-1;Castelli;P70685;SEM GTIN;Gran Oxy Lapado 62,00 X 121,00;Gran;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,26;63,28;3;48;61,9;-1;-1;-1;N;-1;-1;-1;-1;101
+40;-1;Castelli;P70686;SEM GTIN;Gran Cianita Lux Esmaltado Polido 62,00 X 121,00;Gran;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,26;63,28;3;48;58,9;-1;-1;-1;N;-1;-1;-1;-1;101
+41;-1;Castelli;P70688;SEM GTIN;Gran Marmo Arcobaleno Lux Esmaltado Polido 62,00 X 121,00;Gran;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,26;63,28;3;48;55,9;-1;-1;-1;N;-1;-1;-1;-1;101
+42;-1;Castelli;P70690;SEM GTIN;Gran Cristallo Lux Esmaltado Polido 62,00 X 121,00;Gran;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,26;63,28;3;48;55,9;-1;-1;-1;N;-1;-1;-1;-1;101
+43;-1;Castelli;P70408;SEM GTIN;L`Aquila Esmaltado Polido 82x82;L`Aquila;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,02;64,64;3;46;51,9;-1;-1;-1;N;-1;-1;-1;-1;101
+44;-1;Castelli;P70414;SEM GTIN;Fontanellato Lux Plus Esmaltado Polido 82x82;Fontanellato;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,02;64,64;3;46;51,9;-1;-1;-1;N;-1;-1;-1;-1;101
+45;-1;Castelli;P70420;SEM GTIN;Castel Tasso Lux Esmaltado Polido 82x82;Castel;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,02;64,64;3;46;51,9;-1;-1;-1;N;-1;-1;-1;-1;101
+46;-1;Castelli;P70434;SEM GTIN;Abruzzo Gray Lux Plus Esmaltado Polido 82x82;Abruzzo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,02;64,64;3;46;51,9;-1;-1;-1;N;-1;-1;-1;-1;101
+47;-1;Castelli;P70439;SEM GTIN;Peterhof Lux Plus Esmaltado Polido 82x82;Peterhof;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,02;64,64;3;46;50,9;-1;-1;-1;N;-1;-1;-1;-1;101
+48;-1;Castelli;P70440;SEM GTIN;Marmo Arcobaleno Lux Plus Esmaltado Polido 82x82;Marmo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,02;64,64;3;46;50,9;-1;-1;-1;N;-1;-1;-1;-1;101
+49;-1;Castelli;70508;SEM GTIN;Laquila Plus Acetinado 83,01 X 83,01;Laquila;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,73;87,36;4;48;39,9;-1;-1;-1;N;-1;-1;-1;-1;101
+50;-1;Castelli;70509;SEM GTIN;Fontanellato Plus Acetinado 83,01 X 83,01;Fontanellato;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,73;87,36;4;48;40,9;-1;-1;-1;N;-1;-1;-1;-1;101
+51;-1;Castelli;70511;SEM GTIN;Versalhes Silver Plus Acetinado 83,01 X 83,01;Versalhes;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,73;87,36;4;48;41,9;-1;-1;-1;N;-1;-1;-1;-1;101
+52;-1;Castelli;70512;SEM GTIN;Versalhes Bone Plus Acetinado 83,01 X 83,01;Versalhes;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,73;87,36;4;48;39,9;-1;-1;-1;N;-1;-1;-1;-1;101
+53;-1;Castelli;70522;SEM GTIN;Castelo de Haward Acetinado 83,01 X 83,01;Castelo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,73;87,36;4;48;41,9;-1;-1;-1;N;-1;-1;-1;-1;101
+54;-1;Castelli;70525;SEM GTIN;Versalhes Silver Out Plus Granilha 83,01 X 83,01;Versalhes;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,73;87,36;4;48;41,9;-1;-1;-1;N;-1;-1;-1;-1;101
+55;-1;Castelli;70526;SEM GTIN;Castel Tasso Plus Acetinado 83,01 X 83,01;Castel;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,73;87,36;4;48;39,9;-1;-1;-1;N;-1;-1;-1;-1;101
+56;-1;Castelli;70532;SEM GTIN;Peterhof Plus Acetinado 83,01 X 83,01;Peterhof;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,73;87,36;4;48;39,9;-1;-1;-1;N;-1;-1;-1;-1;101
+57;-1;Castelli;70540;SEM GTIN;Abruzzo Gray Satiny Plus Acetinado 83,01 X 83,01;Abruzzo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,73;87,36;4;48;40,9;-1;-1;-1;N;-1;-1;-1;-1;101
+58;-1;Castelli;70541;SEM GTIN;Monte Saint Michez Gray Acetinado 83,01 X 83,01;Monte;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,73;87,36;4;48;40,9;-1;-1;-1;N;-1;-1;-1;-1;101
+59;-1;Castelli;70542;SEM GTIN;Monte Saint Michez Snow Plus Acetinado 83,01 X 83,01;Monte;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,73;87,36;4;48;41,9;-1;-1;-1;N;-1;-1;-1;-1;101
+60;-1;Castelli;70543;SEM GTIN;San Francisco Out Diamond 83,01 X 83,01;San;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,73;87,36;4;48;43,9;-1;-1;-1;N;-1;-1;-1;-1;101
+61;-1;Castelli;70544;SEM GTIN;Marmo Arcobaleno Plus Acetinado 83,01 X 83,01;Marmo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,73;87,36;4;48;41,9;-1;-1;-1;N;-1;-1;-1;-1;101
+62;-1;Castelli;70545;SEM GTIN;Castelo de Haward Out Diamond 83,01 X 83,01;Castelo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,73;87,36;4;48;43,9;-1;-1;-1;N;-1;-1;-1;-1;101
+63;-1;Castelli;70546;SEM GTIN;Saint Michez Grafite Plus Acetinado 83,01 X 83,01;Saint;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,73;87,36;4;48;41,9;-1;-1;-1;N;-1;-1;-1;-1;101
+64;-1;Castelli;70547;SEM GTIN;Saint Michez Grafite Plus Out Diamond 83,01 X 83,01;Saint;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,73;87,36;4;48;43,9;-1;-1;-1;N;-1;-1;-1;-1;101
+65;-1;Castelli;P71002;SEM GTIN;Castelo de Windsor Esmaltado Polido 121x121;Castelo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,95;59;2;68;90,9;-1;-1;-1;N;-1;-1;-1;-1;101
+66;-1;Castelli;P71004;SEM GTIN;Castel Balear Beige Lux Esmaltado Polido 121x121;Castel;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,95;59;2;68;90,9;-1;-1;-1;N;-1;-1;-1;-1;101
+67;-1;Castelli;P71006;SEM GTIN;Master Castel Tasso Lux Esmaltado Polido 121x121;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,95;59;2;68;89,9;-1;-1;-1;N;-1;-1;-1;-1;101
+68;-1;Castelli;P71007;SEM GTIN;Master Peterhof Lux Esmaltado Polido 121x121;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,95;59;2;68;89,9;-1;-1;-1;N;-1;-1;-1;-1;101
+69;-1;Castelli;P71011;SEM GTIN;Master Bianco Onice Lux  Esmaltado Polido 121x121;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,95;59;2;68;92,9;-1;-1;-1;N;-1;-1;-1;-1;101
+70;-1;Castelli;P71013;SEM GTIN;Master Cristallo Lux Esmaltado Polido 121x121;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,95;59;2;68;89,9;-1;-1;-1;N;-1;-1;-1;-1;101
+71;-1;Castelli;P71014;SEM GTIN;Master Marmo Arcobaleno Lux Esmaltado Polido 121x121;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,95;59;2;68;89,9;-1;-1;-1;N;-1;-1;-1;-1;101
+72;-1;Castelli;73003;SEM GTIN;Monte Saint Michez Fendi Acetinado 123x123;Monte;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,02;60,4;2;70;69,9;-1;-1;-1;N;-1;-1;-1;-1;101
+73;-1;Castelli;73005;SEM GTIN;Monte Saint Michez Off White Acetinado 123x123;Monte;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,02;60,4;2;70;68,9;-1;-1;-1;N;-1;-1;-1;-1;101
+74;-1;Castelli;73008;SEM GTIN;Master Castel Tasso Acetinado 123x123;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,02;60,4;2;70;68,9;-1;-1;-1;N;-1;-1;-1;-1;101
+75;-1;Castelli;73007;SEM GTIN;Castel de Basalto Acetinado 123x123;Castel;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,02;60,4;2;70;76,9;-1;-1;-1;N;-1;-1;-1;-1;101
+76;-1;Castelli;73009;SEM GTIN;Master Versalher Silver Acetinado 123x123;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,02;60,4;2;70;69,9;-1;-1;-1;N;-1;-1;-1;-1;101
+77;-1;Castelli;73010;SEM GTIN;Master Cimentati Satiny Acetinado 123x123;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,02;60,4;2;70;69,9;-1;-1;-1;N;-1;-1;-1;-1;101
+78;-1;Castelli;73011;SEM GTIN;Master Peterhof Satiny Acetinado 123x123;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,02;60,4;2;70;68,9;-1;-1;-1;N;-1;-1;-1;-1;101
+79;-1;Castelli;73012;SEM GTIN;Master Bianco Onice Satiny Acetinado 123x123;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,02;60,4;2;70;70,9;-1;-1;-1;N;-1;-1;-1;-1;101
+80;-1;Castelli;73013;SEM GTIN;Master Sahara Satiny Acetinado 123x123;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,02;60,4;2;70;70,9;-1;-1;-1;N;-1;-1;-1;-1;101
+81;-1;Castelli;73014;SEM GTIN;Master Cimentati Out Granilha/Diamond 123x123;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,02;60,4;2;70;70,9;-1;-1;-1;N;-1;-1;-1;-1;101
+82;-1;Castelli;73015;SEM GTIN;Master Metalico Inktec 123x123;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,02;60,4;2;70;76,9;-1;-1;-1;N;-1;-1;-1;-1;101
+83;-1;Castelli;73016;SEM GTIN;Master Cimentati Grafite Acetinado 123x123;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,02;60,4;2;70;69,9;-1;-1;-1;N;-1;-1;-1;-1;101
+84;-1;Castelli;73017;SEM GTIN;Master Cimentati Grafite Out Granilha/Diamond 123x123;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,02;60,4;2;70;70,9;-1;-1;-1;N;-1;-1;-1;-1;101
+85;-1;Castelli;73018;SEM GTIN;Master Saint Michez Snow Acetinado 123x123;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,02;60,4;2;70;69,9;-1;-1;-1;N;-1;-1;-1;-1;101
+86;-1;Castelli;73019;SEM GTIN;Master Marmo Arcobaleno Acetinado 123x123;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,02;60,4;2;70;69,9;-1;-1;-1;N;-1;-1;-1;-1;101
+87;-1;Castelli;73020;SEM GTIN;Master Cristallo Acetinado 123x123;Master;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,02;60,4;2;70;69,9;-1;-1;-1;N;-1;-1;-1;-1;101
+88;-1;Castelli;71400;SEM GTIN;Max Donnottar Satiny  Acetinado 71,00 x 71,00;Max;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,52;80,64;5;40;35,9;-1;-1;-1;N;-1;-1;-1;-1;101
+89;-1;Castelli;71401;SEM GTIN;Max Donnottar Out  Granilha 71,00 x 71,00;Max;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,52;80,64;5;40;37,9;-1;-1;-1;N;-1;-1;-1;-1;101
+90;-1;Castelli;71402;SEM GTIN;Max Donnottar Beige Satiny  Acetinado 71,00 x 71,00;Max;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,52;80,64;5;40;34,9;-1;-1;-1;N;-1;-1;-1;-1;101
+91;-1;Castelli;71404;SEM GTIN;Max Comtal Out  Granilha 71,00 x 71,00;Max;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,52;80,64;5;40;37,9;-1;-1;-1;N;-1;-1;-1;-1;101
+92;-1;Castelli;71405;SEM GTIN;Max Donnottar Gray Satiny  Acetinado 71,00 x 71,00;Max;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,52;80,64;5;40;35,9;-1;-1;-1;N;-1;-1;-1;-1;101
+93;-1;Castelli;71407;SEM GTIN;Max Bianco Onice Acetinado 71,00 x 71,00;Max;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,52;80,64;5;40;35,9;-1;-1;-1;N;-1;-1;-1;-1;101
+94;-1;Castelli;71408;SEM GTIN;Max Cimentati Acetinado 71,00 x 71,00;Max;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,52;80,64;5;40;34,9;-1;-1;-1;N;-1;-1;-1;-1;101
+95;-1;Castelli;71409;SEM GTIN;Max Cimentati Out Granilha/Dimond 71,00 x 71,00;Max;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,52;80,64;5;40;36,9;-1;-1;-1;N;-1;-1;-1;-1;101
+96;-1;Castelli;71410;SEM GTIN;Max Cimentati Beige Acetinado 71,00 x 71,00;Max;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,52;80,64;5;40;34,9;-1;-1;-1;N;-1;-1;-1;-1;101
+97;-1;Castelli;71411;SEM GTIN;Max Cimentati Beige Out Granilha/Dimond 71,00 x 71,00;Max;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,52;80,64;5;40;36,9;-1;-1;-1;N;-1;-1;-1;-1;101
+98;-1;Castelli;71412;SEM GTIN;Max Cimentati Grafite Acetinado 71,00 x 71,00;Max;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,52;80,64;5;40;34,9;-1;-1;-1;N;-1;-1;-1;-1;101
+99;-1;Castelli;71413;SEM GTIN;Max Cimentati Grafite Out Granilha/Dimond 71,00 x 71,00;Max;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,52;80,64;5;40;36,9;-1;-1;-1;N;-1;-1;-1;-1;101
+100;-1;Castelli;P71450;SEM GTIN;Max Dunnottar Lux Esmaltado Polido 71,00 x 71,00;Max;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,52;80,64;5;40;44,9;-1;-1;-1;N;-1;-1;-1;-1;101
+101;-1;Castelli;P71451;SEM GTIN;Max Cardiff Lux Lux  Esmaltado Polido 71,00 x 71,00;Max;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,52;80,64;5;40;45,9;-1;-1;-1;N;-1;-1;-1;-1;101
+102;-1;Castelli;P71452;SEM GTIN;Max Gaillard Lux  Esmaltado Polido 71,00 x 71,00;Max;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,52;80,64;5;40;46,9;-1;-1;-1;N;-1;-1;-1;-1;101
+103;-1;Castelli;P71453;SEM GTIN;Max Bianco Onice Lux Esmaltado Polido 71,00 x 71,00;Max;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,52;80,64;5;40;46,9;-1;-1;-1;N;-1;-1;-1;-1;101
+104;-1;Castelli;94701;SEM GTIN;Beige Cimentati Satiny Acetinado 94,00 x 94,00;Beige;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;43,9;-1;-1;-1;N;-1;-1;-1;-1;101
+105;-1;Castelli;94702;SEM GTIN;Grigio Cimentati Satiny Acetinado 94,00 x 94,00;Grigio;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;44,9;-1;-1;-1;N;-1;-1;-1;-1;101
+106;-1;Castelli;94703;SEM GTIN;Pietra Arenaria Satiny Acetinado 94,00 x 94,00;Pietra;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;46,9;-1;-1;-1;N;-1;-1;-1;-1;101
+107;-1;Castelli;94704;SEM GTIN;Pietra Arenaria Out Granilha 94,00 x 94,00;Pietra;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;47,9;-1;-1;-1;N;-1;-1;-1;-1;101
+108;-1;Castelli;94705;SEM GTIN;Block Gris Satiny Acetinado 94,00 x 94,00;Block;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;44,9;-1;-1;-1;N;-1;-1;-1;-1;101
+109;-1;Castelli;94708;SEM GTIN;Calacata Classic Satiny Acetinado 94,00 x 94,00;Calacata;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;44,9;-1;-1;-1;N;-1;-1;-1;-1;101
+110;-1;Castelli;94710;SEM GTIN;Marmo Striato Satiny Acetinado 94,00 x 94,00;Marmo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;47,9;-1;-1;-1;N;-1;-1;-1;-1;101
+111;-1;Castelli;94712;SEM GTIN;Terrazo Delicato Satiny Acetinado 94,00 x 94,00;Terrazo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;44,9;-1;-1;-1;N;-1;-1;-1;-1;101
+112;-1;Castelli;94714;SEM GTIN;Nero Marquina Satiny Acetinado 94,00 x 94,00;Nero;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;57,9;-1;-1;-1;N;-1;-1;-1;-1;101
+113;-1;Castelli;94716;SEM GTIN;Pietra Negresco Acetinado 94,00 x 94,00;Pietra;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;57,9;-1;-1;-1;N;-1;-1;-1;-1;101
+114;-1;Castelli;94721;SEM GTIN;Bianco Onice Satiny Acetinado 94,00 x 94,00;Bianco;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;46,9;-1;-1;-1;N;-1;-1;-1;-1;101
+115;-1;Castelli;94722;SEM GTIN;Cimentati Satiny Acetinado 94,00 x 94,00;Cimentati;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;43,9;-1;-1;-1;N;-1;-1;-1;-1;101
+116;-1;Castelli;94723;SEM GTIN;Unique Out Granilha Diamond 94,00 x 94,00;Unique;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;48,9;-1;-1;-1;N;-1;-1;-1;-1;101
+117;-1;Castelli;94725;SEM GTIN;Cimentati Out Granilha/Diamond 94,00 x 94,00;Cimentati;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;48,9;-1;-1;-1;N;-1;-1;-1;-1;101
+118;-1;Castelli;94727;SEM GTIN;Cimentati Grafite Acetinado 94,00 x 94,00;Cimentati;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;43,9;-1;-1;-1;N;-1;-1;-1;-1;101
+119;-1;Castelli;94728;SEM GTIN;Cimentati Grafite Out Granilha/Diamond 94,00 x 94,00;Cimentati;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;48,9;-1;-1;-1;N;-1;-1;-1;-1;101
+120;-1;Castelli;94729;SEM GTIN;Cimentati Beige Out Granilha/Diamond 94,00 x 94,00;Cimentati;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;48,9;-1;-1;-1;N;-1;-1;-1;-1;101
+121;-1;Castelli;94731;SEM GTIN;Castell Thassos Satiny Acetinado 94,00 x 94,00;Castell;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;44,9;-1;-1;-1;N;-1;-1;-1;-1;101
+122;-1;Castelli;94732;SEM GTIN;Castell Gray Satiny Acetinado 94,00 x 94,00;Castell;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;44,9;-1;-1;-1;N;-1;-1;-1;-1;101
+123;-1;Castelli;94733;SEM GTIN;Castell Gray Out Diamond 94,00 x 94,00;Castell;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;48,9;-1;-1;-1;N;-1;-1;-1;-1;101
+124;-1;Castelli;94734;SEM GTIN;Castel Di Bellver Acetinado 94,00 x 94,00;Castel;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;45,9;-1;-1;-1;N;-1;-1;-1;-1;101
+125;-1;Castelli;94737;SEM GTIN;Peterhof Satiny Acetinado 94,00 x 94,00;Peterhof;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;44,9;-1;-1;-1;N;-1;-1;-1;-1;101
+126;-1;Castelli;94739;SEM GTIN;Cristallo Satiny Acetinado 94,00 x 94,00;Cristallo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;44,9;-1;-1;-1;N;-1;-1;-1;-1;101
+127;-1;Castelli;94741;SEM GTIN;Travertino Bali Satiny Acetinado 94,00 x 94,00;Travertino;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;46,9;-1;-1;-1;N;-1;-1;-1;-1;101
+128;-1;Castelli;94742;SEM GTIN;Travertino Bali Out Granilha/Diamond 94,00 x 94,00;Travertino;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;47,9;-1;-1;-1;N;-1;-1;-1;-1;101
+129;-1;Castelli;P94706;SEM GTIN;Block Gris Lux Esmaltado Polido 94,01 x 94,01;Block;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;54,9;-1;-1;-1;N;-1;-1;-1;-1;101
+130;-1;Castelli;P94707;SEM GTIN;Calaca Classici Lux Esmaltado Polido 94,01 x 94,01;Calaca;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;54,9;-1;-1;-1;N;-1;-1;-1;-1;101
+131;-1;Castelli;P94709;SEM GTIN;Marmo Striato Lux Esmaltado Polido 94,01 x 94,01;Marmo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;58,9;-1;-1;-1;N;-1;-1;-1;-1;101
+132;-1;Castelli;P94711;SEM GTIN;Terrazo Delicato Lux Esmaltado Polido 94,01 x 94,01;Terrazo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;54,9;-1;-1;-1;N;-1;-1;-1;-1;101
+133;-1;Castelli;P94713;SEM GTIN;Nero Marquina Lux Esmaltado Polido 94,01 x 94,01;Nero;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;63,9;-1;-1;-1;N;-1;-1;-1;-1;101
+134;-1;Castelli;P94715;SEM GTIN;Bianco Onice Lux Esmaltado Polido 94,01 x 94,01;Bianco;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;57,9;-1;-1;-1;N;-1;-1;-1;-1;101
+135;-1;Castelli;P94717;SEM GTIN;Barone Di Marmo Lux Esmaltado Polido 94,01 x 94,01;Barone;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;57,9;-1;-1;-1;N;-1;-1;-1;-1;101
+136;-1;Castelli;P94726;SEM GTIN;Cimentati Lux Esmaltado Polido 94,01 x 94,01;Cimentati;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;57,9;-1;-1;-1;N;-1;-1;-1;-1;101
+137;-1;Castelli;P94735;SEM GTIN;Castell Di Bianco Lux Esmaltado Polido 94,01 x 94,01;Castell;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;55,9;-1;-1;-1;N;-1;-1;-1;-1;101
+138;-1;Castelli;P94736;SEM GTIN;Castell Thassos Luz Esmaltado Polido 94,01 x 94,01;Castell;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;55,9;-1;-1;-1;N;-1;-1;-1;-1;101
+139;-1;Castelli;P94738;SEM GTIN;Peterhof Lux Esmaltado Polido 94,01 x 94,01;Peterhof;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;55,9;-1;-1;-1;N;-1;-1;-1;-1;101
+140;-1;Castelli;P94740;SEM GTIN;Cristallo Lux Esmaltado Polido 94,01 x 94,01;Cristallo;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,65;63,6;3;46;55,9;-1;-1;-1;N;-1;-1;-1;-1;101
+141;-1;Castelli;98703;SEM GTIN;Grandi Pietra Negresco Acetinado 94,00 x 184,00;Grandi;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,45;82,8;2;63,5;116,9;-1;-1;-1;N;-1;-1;-1;-1;101
+142;-1;Castelli;P98700;SEM GTIN;Grandi Bianco Onice Lux Esmaltado Polido 94,01 x 184,01;Grandi;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,45;82,8;2;63,5;127;-1;-1;-1;N;-1;-1;-1;-1;101
+143;-1;Castelli;P98701;SEM GTIN;Grandi Calacata Borghini Lux Esmaltado Polido 94,01 x 184,01;Grandi;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,45;82,8;2;63,5;125;-1;-1;-1;N;-1;-1;-1;-1;101
+144;-1;Castelli;P98702;SEM GTIN;Grandi Alpi Mix Lux Esmaltado Polido 94,01 x 184,01;Grandi;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;3,45;82,8;2;63,5;129;-1;-1;-1;N;-1;-1;-1;-1;101
+145;-1;Castelli;184700;SEM GTIN;Grandi Legno Cerezo Acetinado 31,00 x 184,00;Grandi;-1;-1;-1;-1;-1;-1;-1;BATATA;0;M2;2,28;82,08;4;46;115,5;-1;-1;-1;N;-1;-1;-1;-1;101
