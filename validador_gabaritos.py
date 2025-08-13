@@ -224,6 +224,7 @@ class ValidadorProdutos:
             'pTamanho', 'pSegmento', 'pFamilia', 'pSubFamilia', 'pMúltiplo', 
             'pM²/Pallet', 'pQUANTIDADE NA EMBALAGEM', 'pPercST', 'pPercIPI', 
             'pPreçoVenda', 'pMarkup', 'pFrete', 'pCodigoSA', 'pDesconto'
+            # Removido 'pNCM' - tem validação específica própria
         ]
         for coluna in campos_numericos:
             if coluna not in self.df.columns:
@@ -247,6 +248,62 @@ class ValidadorProdutos:
         texto_sem_acentos = ''.join([c for c in nfkd if not unicodedata.combining(c)])
         texto_limpo = re.sub(r'[^a-zA-Z0-9]', '', texto_sem_acentos)
         return texto_limpo.lower()  # Faz tudo minúsculo para comparação
+
+    def validar_pNCM(self):
+        """Validação específica para coluna pNCM - deve ser apenas numérica"""
+        if 'pNCM' not in self.df.columns:
+            self.avisos.append("⚠️ Coluna pNCM não encontrada")
+            return
+        
+        self.log("🔍 Validando coluna pNCM...")
+        valores_invalidos = []
+        valores_corrigidos = 0
+        
+        for idx, valor in enumerate(self.df['pNCM']):
+            if pd.isna(valor):
+                continue
+                
+            valor_original = str(valor).strip()
+            
+            # Verificar se contém texto (como "BATATAS")
+            if not valor_original.replace('.', '').replace(',', '').isdigit():
+                # Se contém letras ou caracteres especiais
+                if any(c.isalpha() for c in valor_original):
+                    valores_invalidos.append(f"Linha {idx + 2}: '{valor_original}' (contém texto - deve ser apenas numérico)")
+                    # Opcional: substituir por valor padrão ou deixar vazio
+                    self.df.at[idx, 'pNCM'] = ''  # ou pd.NA
+                    valores_corrigidos += 1
+                else:
+                    # Tentar converter números com vírgula/ponto
+                    try:
+                        valor_numerico = float(valor_original.replace(',', '.'))
+                        # Converter para inteiro se for NCM (geralmente são códigos inteiros)
+                        if valor_numerico == int(valor_numerico):
+                            self.df.at[idx, 'pNCM'] = int(valor_numerico)
+                            valores_corrigidos += 1
+                    except (ValueError, TypeError):
+                        valores_invalidos.append(f"Linha {idx + 2}: '{valor_original}' (formato inválido)")
+                        self.df.at[idx, 'pNCM'] = ''
+                        valores_corrigidos += 1
+        
+        if valores_invalidos:
+            erro = f"pNCM: {len(valores_invalidos)} valores com texto/formato inválido encontrados"
+            self.erros.append(erro)
+            self.log(f"❌ {erro}")
+            
+            # Log detalhado dos primeiros 5 erros
+            for i, erro_detalhe in enumerate(valores_invalidos[:5]):
+                self.log(f"   • {erro_detalhe}")
+            
+            if len(valores_invalidos) > 5:
+                self.log(f"   • ... e mais {len(valores_invalidos) - 5} erros")
+        
+        if valores_corrigidos > 0:
+            self.avisos.append(f"⚠️ pNCM: {valores_corrigidos} valores foram limpos/corrigidos")
+            self.log(f"🔧 {valores_corrigidos} valores na coluna pNCM foram corrigidos")
+        
+        if not valores_invalidos:
+            self.log("✅ Coluna pNCM validada - todos os valores são numéricos")
 
     def gerar_relatorio_final(self):
         """Gera um relatório final completo da validação"""
@@ -322,6 +379,7 @@ class ValidadorProdutos:
             self.validar_colunas_obrigatorias()
             self.aplicar_valores_padrao()
             self.validar_pOrigem_CST()
+            self.validar_pNCM()  # Nova validação específica
             self.validar_valores_numericos()
         
         # Gera o relatório final (seu método original)
